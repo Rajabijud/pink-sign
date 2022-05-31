@@ -1,0 +1,78 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+  font-family: 'Lato', sans-serif;
+  background-color: palevioletred;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+form {
+    position: relative;
+    background: white;
+    height: 23rem;
+    border: none;
+    border-radius: 5px;
+    width: 500px;
+    padding-top: 35px;
+    padding-left: 35px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: -140px;
+
+    
+}
+input {
+    display: block;
+    margin: 20px 0px;
+    border: none;
+    font-size: 16px;
+    width: 70%;
+    font-family: 'Rubik', sans-serif;
+    border-bottom: 1px solid #747474;
+    outline: none;
+}
+a{
+    text-decoration: none;
+    display: block;
+    color: #747474;
+}
+div.button-register {
+    width: 49%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+div.button-register button{
+    background: #e8e9ec;
+    color: #777;
+    width: 100%;
+    border: none;
+    padding: 23px;
+    cursor: pointer;
+
+}
+div.button-signin{
+    width: 49%;
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+div.button-signin button{
+    background: #2d3b55;
+    color: #fff;
+    width: 100%;
+    border: none;
+    padding: 23px;
+    cursor: pointer;
+    
+}
